@@ -3,15 +3,14 @@
         {
             "name": "Win32",
             "includePath": [
-                "${default}",
-                "D:\\MyProject\\codeLearn\\Header\\Include"
+                "${workspaceFolder}\\Header\\Include"
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE"
             ],
-            "compilerPath": "C:\\mingw64\\bin\\gcc.exe",
+            "compilerPath": "C:\\mingw64\\bin\\g++.exe",
             "cStandard": "gnu17",
             "cppStandard": "gnu++14",
             "intelliSenseMode": "windows-gcc-x64",
