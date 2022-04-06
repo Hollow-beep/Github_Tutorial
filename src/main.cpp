@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
 
-#include "..\Header\Include\Point.h"
-#include "..\Header\Include\PolyLine.h"
+#include "Point.h"
+#include "PolyLine.h"
 
 int main() {
 	PolyLine polyLine;
