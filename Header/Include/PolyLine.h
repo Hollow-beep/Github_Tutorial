@@ -16,6 +16,8 @@ public:
     void appendPoint(Point point);
     void appendPoint(int x, int y);
     double getLength();
+    int totalPoints();
+    void printPoints();
 };
 
 #endif

@@ -1,5 +1,5 @@
 //PolyLine.cpp
-
+#include <iostream>
 #include "Point.h"
 #include "PolyLine.h"
 #include <math.h>
@@ -27,4 +27,17 @@ double PolyLine::getLength(){
 	                        + (points[i].getY() - points[i + 1].getY())*(points[i].getY() - points[i + 1].getY()));
 	}
 	return length;
+}
+
+int PolyLine::totalPoints(){
+	return points.size();
+}
+
+void PolyLine::printPoints(){
+	for (int i = 0; i < points.size(); i++){
+		std::cout << i + 1 << ": ";
+		std::cout << "[" << points.at(i).getX() << " ";
+		std::cout << points.at(i).getY() << "] " << std::endl;
+	}
+	std::cout << "\n";
 }

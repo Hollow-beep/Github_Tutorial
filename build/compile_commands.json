@@ -1,0 +1,17 @@
+[
+{
+  "directory": "D:/MyProject/codeLearn/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/codeLearn.dir/includes_CXX.rsp -g -o CMakeFiles\\codeLearn.dir\\main.cpp.obj -c D:\\MyProject\\codeLearn\\src\\main.cpp",
+  "file": "D:/MyProject/codeLearn/src/main.cpp"
+},
+{
+  "directory": "D:/MyProject/codeLearn/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/codeLearn.dir/includes_CXX.rsp -g -o CMakeFiles\\codeLearn.dir\\Point.cpp.obj -c D:\\MyProject\\codeLearn\\src\\Point.cpp",
+  "file": "D:/MyProject/codeLearn/src/Point.cpp"
+},
+{
+  "directory": "D:/MyProject/codeLearn/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/codeLearn.dir/includes_CXX.rsp -g -o CMakeFiles\\codeLearn.dir\\PolyLine.cpp.obj -c D:\\MyProject\\codeLearn\\src\\PolyLine.cpp",
+  "file": "D:/MyProject/codeLearn/src/PolyLine.cpp"
+}
+]
